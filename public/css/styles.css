@@ -1,0 +1,170 @@
+
+body {
+  background-color: black;
+}
+
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.justified {
+  margin: auto;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
+
+.bordered {
+  border: solid 1px;
+}
+
+.mybtn {
+  margin: 20px;
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.my-jumb {
+  margin-bottom: 0;
+}
+
+.my-cont {
+  margin-top: 2%;
+}
+
+
+
+select[value="Requested"] {
+  background: red;
+}
+
+select[value="Picking"] {
+  background: yellow;
+}
+
+select[value="Picked"] {
+  background: orange;
+}
+
+select[value="Completed"] {
+  background: green;
+}
+
+select[value="Cancelled"] {
+  background: darkgreen;
+}
+
+option[value="Requested"] {
+  background: red;
+}
+
+option[value="Picking"] {
+  background: yellow;
+}
+
+option[value="Picked"] {
+  background: orange;
+}
+
+option[value="Completed"] {
+  background: green;
+}
+
+option[value="Cancelled"] {
+  background: darkgreen;
+}
+
+/* Styling list */
+
+.bold {
+  font-weight: bold;
+}
+
+.box {
+  max-width: 400px;
+  color: lightgrey;
+  margin: 50px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #343a40;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #343a40;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #343a40;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.list-button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #343a40;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+.list-input {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+.list-input:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #343a40;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}

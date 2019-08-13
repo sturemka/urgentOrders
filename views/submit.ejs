@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="container my-cont">
+  <div class="jumbotron centered">
+    <h1 class="display-3">Add new order</h1>
+<br />
+    <form action="/submit" method="POST" autocomplete="off">
+
+      <div class="form-group">
+        <input type="number" class="form-control text-center form-item" name="sapNumber" min="2000000" max="2999999" placeholder="SAP number">
+        <input type="number" class="form-control text-center form-item" name="orderNumber" min="8000000000" max="8999999999" placeholder="Order number">
+        <input type="text" class="form-control text-center form-item" name="deliveryTime" placeholder="Required delivery time if needed">
+        <input type="text" class="form-control text-center form-item" name="carrier" placeholder="Carrier if needed">
+        <input type="text" class="form-control text-center form-item" name="comments" placeholder="Comments">
+      </div>
+      <a href="/"><button type="button" class="btn btn-dark mybtn">Cancel</button></a>
+      <button type="submit" class="btn btn-dark mybtn">Submit</button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/footer') %>
